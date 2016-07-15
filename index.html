@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Commerce Book Store</title>
+
+<!-- Bootstrap CDN Link(stylesheet) -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">E-Commerce Book Store</span>
+          <span class="icon-bar">Book</span>
+          <span class="icon-bar">Album</span>
+          <span class="icon-bar">All Sales</span>
+        </button>
+        <a class="navbar-brand" href="#">E-Commerce Book Store</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" class="books">Book</a></li>
+          <li><a href="#" class="albums">Album</a></li>
+          <li><a href="#" class="allSales">All Sales</a></li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+  </nav><!-- /.navbar -->
+
+  <div class="container">
+
+    <div class="row row-offcanvas row-offcanvas-right" style="margin-top:70px;">
+
+      <div class="col-xs-12 col-sm-9">
+        <p class="pull-right visible-xs">
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+        </p>
+        <div class="jumbotron img-responsive">
+          <h1 class="mainTitle">Welcome, E-Commerce Book Store!</h1>
+          <p class="mainTxt">We’re creating new, loyal customers every day! And with our highly diverse online offerings–books, music and gifts–those customers embody a huge variety of demographics and interests, all under the trusted E-Commerce Book Store.</p>
+        </div>
+
+        <div id="content">
+          <!-- content is here ... -->
+        </div><!-- #content -->
+
+      </div><!--/.col-xs-12.col-sm-9-->
+
+      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+        <div class="list-group">
+          <a href="#" class="list-group-item books active">Book</a>
+          <a href="#" class="list-group-item">Song of the Deep</a>
+          <a href="#" class="list-group-item">Lab Girl</a>
+          <a href="#" class="list-group-item">Pride & Prejudice</a>
+          <a href="#" class="list-group-item albums active">Album</a>
+          <a href="#" class="list-group-item">The Beatles</a>
+          <a href="#" class="list-group-item">ADELE 21</a>
+          <a href="#" class="list-group-item">Amy Winehouse</a>
+          <a href="#" class="list-group-item allSales active">All Sales</a>
+          <a href="#" class="list-group-item">Gifts</a>
+        </div>
+      </div><!--/.sidebar-offcanvas-->
+
+    </div><!--/row-->
+
+    <hr>
+
+    <footer>
+      <p>© 2016 Clara Youngmi Choi.</p>
+    </footer>
+
+  </div><!--/.container-->
+
+<!-- 여기서부터 JavaScript ////////////////////////////////////////////////// -->
+  <!-- jQuery CDN Script -->
+  <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+  <!-- Bootstrap CDN Script -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <script src="ecommerce.js"></script>
+
+</body></html>
